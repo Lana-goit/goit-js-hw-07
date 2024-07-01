@@ -3,11 +3,11 @@ function getRandomHexColor() {
     .toString(16)
     .padStart(6, 0)}`;
 }
-const conrols = document.getElementById("controls");
+const controls = document.getElementById("controls");
 const input = controls.querySelector("input");
 const createButton = controls.querySelector("button[data-create]");
-const createButton = controls.querySelector("button[data-create]");
-const oxes = document.getElementById("boxes");
+const destroyButton = controls.querySelector("button[data-destroy]");
+const boxes = document.getElementById("boxes");
 
 function createBoxes(amount) {
   const elements = [];
