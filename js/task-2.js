@@ -16,6 +16,7 @@ const images = [
     alt: "Alpine Spring Meadows",
   },
   {
+    url: "https://cdn.pixabay.com/photo/2019/05/16/21/10/landscape-4208255_1280.jpg",
     alt: "Nature Landscape",
   },
   {
