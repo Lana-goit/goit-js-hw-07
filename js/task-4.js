@@ -1,5 +1,5 @@
 const form = document.querySelector(".login-form");
-form.addEventListener("submit", (event) => {
+form.addEventListener("sumbit", (event) => {
   event.preventDefault();
   const emailValue = form.elements.email.value.trim();
   const passwordValue = form.elements.password.value.trim();
@@ -12,5 +12,5 @@ form.addEventListener("submit", (event) => {
     password: passwordValue,
   };
   console.log(formValues);
-  this.reset();
+  form.reset();
 });
